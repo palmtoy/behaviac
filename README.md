@@ -27,4 +27,15 @@
  - [behaviac Q&A](http://bbs.behaviac.com/) for answers of your questions.
  - BehaviacSetup*.exe is the setup package with the binary editor and demo executable. You can download/clone the source code from [github behaviac](https://github.com/Tencent/behaviac)
  
- 
+---------------------------------------------
+For MacOSX:
+
+cd ./build
+./cmake_generate_projects_mac.sh
+
+cd ./cmake_binary/linux/debug/tutorials/tutorial_1/cpp
+make
+
+cd ../../../../../../../bin/
+./tutorial_1_gcc_debug
+
