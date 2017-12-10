@@ -31,11 +31,15 @@
 For MacOSX:
 
 cd ./build
+
 ./cmake_generate_projects_mac.sh
 
+
 cd ./cmake_binary/linux/debug/tutorials/tutorial_1/cpp
+
 make
 
-cd ../../../../../../../bin/
-./tutorial_1_gcc_debug
 
+cd ../../../../../../../bin/
+
+./tutorial_1_gcc_debug
